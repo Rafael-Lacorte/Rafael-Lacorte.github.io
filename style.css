@@ -1,0 +1,43 @@
+body {
+    background-color: #262626;
+    color: white;
+}
+
+.name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+div {
+    height: 150px;
+    
+}
+
+#profile {
+    
+    float: left;
+    padding: 3px;
+    background-color: black;
+    border-radius: 15%;
+    position: relative;
+
+   
+    
+}
+
+div.description{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 13%;
+    left: 14%;
+    
+}
+
+.skills li:nth-child(odd) {
+    color: cyan;
+}
+
+a {
+    color:  magenta;
+}
